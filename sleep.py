@@ -4,7 +4,7 @@ import time
 
 @ray.remote
 def hello_world():
-    time.sleep(120) # 2 min
+    time.sleep(120)  # 2 min
     return "Hello World!"
 
 
