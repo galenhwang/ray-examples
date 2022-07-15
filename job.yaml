@@ -1,0 +1,3 @@
+entrypoint: python sleep.py
+runtime_env:
+  working_dir: https://github.com/galenhwang/ray-examples/archive/refs/heads/main.zip
